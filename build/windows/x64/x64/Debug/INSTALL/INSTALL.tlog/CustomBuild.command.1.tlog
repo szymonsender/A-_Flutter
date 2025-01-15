@@ -1,0 +1,10 @@
+^C:\USERS\SZYMO\STUDIOPROJECTS\UNTITLED\BUILD\WINDOWS\X64\CMAKEFILES\FEB63700A8B66CC0406DB16F04BCD05D\INSTALL_FORCE.RULE
+setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
