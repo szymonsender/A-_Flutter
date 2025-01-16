@@ -1,10 +1,10 @@
-A* – Flutter (Desktop + Klawiatura)
+# A* – Flutter (Desktop + Klawiatura)
 A* to prosta aplikacja napisana w języku Dart z wykorzystaniem frameworka Flutter. 
 Prezentuje działanie algorytmu A* na siatce (gridzie) wraz z obsługą punktu startu, celu oraz opcjonalnego punktu pośredniego. 
 Wersja jest przystosowana do uruchamiania na desktopie i obsługuje sterowanie z klawiatury.
 
 
-Funkcjonalności
+# Funkcjonalności
 Animowana wizualizacja algorytmu A*:
 Znajduje najkrótszą ścieżkę od punktu startu do punktu docelowego.
 Obsługa punktu pośredniego (waypoint):
@@ -20,26 +20,25 @@ Spacja → kliknięcie w aktualną pozycję kursora (dodanie/usunięcie przeszko
 Ładowanie gotowego layoutu siatki (plik assets/grid).
 Reset stanu i ponowne uruchomienie algorytmu.
 
-Wymagania systemowe
+# Wymagania systemowe
 Flutter w wersji co najmniej 3.0.0.
 Instrukcje instalacji: Flutter - Instalacja
 Środowisko obsługujące uruchamianie aplikacji Fluttera na desktopie (Windows / macOS / Linux).
 Opcjonalnie: Emulator Android / iOS, jeśli chcesz przetestować aplikację na urządzeniach mobilnych.
 
 
-Obsługa aplikacji
+# Obsługa aplikacji
 Tryby edycji (na dole ekranu w postaci przycisków/ChoiceChip):
-
 Start – klikając lub wciskając Spację w trybie Start, ustalasz punkt początkowy.
 Cel (Goal) – ustalasz miejsce docelowe.
 Pośredni (Waypoint) – opcjonalny punkt pomiędzy startem a celem.
 Przeszkody (Obstacle) – klikanie/spacja w tym trybie dodaje (lub usuwa) przeszkody.
-Klawiatura:
 
+# Klawiatura:
 Strzałki – poruszanie kursorem po siatce.
 Spacja – wybór/ustawienie w danym trybie edycji (start, cel, waypoint lub obstacle).
-Dolny pasek przycisków:
 
+# Dolny pasek przycisków:
 Uruchom A* – rozpoczyna wyliczanie ścieżki (z animacją), uwzględniając punkt pośredni, jeśli jest ustawiony.
 Stop – zatrzymuje animację.
 Reset – ładuje ponownie siatkę z pliku assets/grid i resetuje stan.
