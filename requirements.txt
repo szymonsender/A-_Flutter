@@ -1,0 +1,60 @@
+# ============================================================
+#  A* Szymon Sender (Flutter)
+#  -----------------
+# 
+#  ============================================================
+#
+# 1. Zainstaluj Flutter (wersja co najmniej 3.0.0)
+#    Instrukcja instalacji:
+#    https://docs.flutter.dev/get-started/install
+#
+# 2. Upewnij się, że w systemie dostępna jest komenda "flutter"
+#    (sprawdź: flutter --version).
+#
+# 3. W głównym katalogu projektu znajdziesz plik "pubspec.yaml",
+#    w którym wymienione są zależności. Najważniejsze:
+#
+#     environment:
+#       sdk: ">=2.17.0 <3.0.0"
+#
+#     dependencies:
+#       flutter:
+#         sdk: flutter
+#       # Tu dodałbyś inne pakiety, np.:
+#       # http: ^0.13.5
+#       # shared_preferences: ^2.0.15
+#       # (Jeśli by były potrzebne, ale w tym przykładzie nie są)
+#
+#     dev_dependencies:
+#       flutter_test:
+#         sdk: flutter
+#
+# 4. Zainstaluj zależności wpisane w pubspec.yaml, uruchamiając
+#    (w katalogu głównym projektu):
+#
+#     flutter pub get
+#
+# 5. Aby uruchomić aplikację na wybranym urządzeniu/emulatorze:
+#
+#     flutter run
+#
+#    Jeżeli używasz Android Studio lub VS Code:
+#    - wybierz urządzenie/emulator z listy, *wybierz desktop*
+#    - kliknij "Run" / "Debug".
+#
+# 6. Pamiętaj, że do poprawnego działania projektu potrzebny jest
+#    folder "assets" zawierający plik "grid" (jak w kodzie):
+#
+#      assets/
+#        grid
+#
+#    W pliku pubspec.yaml powinieneś mieć sekcję:
+#
+#      flutter:
+#        assets:
+#          - assets/grid
+#
+# 7. Jeśli wszystko jest poprawnie skonfigurowane,
+#    aplikacja uruchomi się na podłączonym urządzeniu / emulatorze.
+#
+# ============================================================
